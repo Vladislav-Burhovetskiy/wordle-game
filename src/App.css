@@ -1,0 +1,61 @@
+#root {
+  max-width: 1200px;
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.keyboard {
+  margin-top: 50px;
+}
+
+.keyboard button {
+  margin: 2px 3px;
+  width: 25px;
+  height: 25px;
+  /* background-color: rgba(121, 153, 205, 0.497); */
+  border: 1px solid rgba(121, 153, 205, 0.497);
+  border-radius: 1px;
+}
+
+.backspace button{
+  height: 25px;
+  background-color: rgba(121, 153, 205, 0.497);
+  border: 1px solid rgba(121, 153, 205, 0.497);
+  border-radius: 1px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(121, 153, 205, 0.497);
+  columns: #242424;
+  font-size: 42px;
+  line-height: 42px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.semi-correct {
+  background-color: yellow;
+}
+
+.correct {
+  background-color: aquamarine;
+}
+
+.incorrect {
+  background-color: gray;
+}
